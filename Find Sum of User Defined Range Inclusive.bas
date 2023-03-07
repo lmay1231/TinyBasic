@@ -1,5 +1,6 @@
-10 LET s=0
-10 PRINT "Choose two numbers"
-20 INPUT a
-30 INPUT b
-40 LET b=b+s
+10 INPUT A,B
+20 LET sum = 0
+30 FOR i=A TO B+1
+40 sum += i
+50 PRINT i
+60 END
